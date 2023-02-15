@@ -16,6 +16,14 @@ The exercises in this document follow along closely with [Lesson 7](https://swca
 -   Use for to repeat operations.
 :::
 
+```{r}
+#| include: false
+library(gapminder)
+data(gapminder)
+
+library(magrittr)
+```
+
 #### Challenge 1
 
 Use an `if()` statement to print a suitable message reporting whether there are any records from 2002 in the `gapminder` dataset.

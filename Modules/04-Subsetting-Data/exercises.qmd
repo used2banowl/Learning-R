@@ -109,7 +109,9 @@ m <- matrix(1:18, nrow=3, ncol=6)
 print(m)
 ```
 
-Which of the following commands will extract the values 11 and 14? A. `m[2,4,2,5]`
+Which of the following commands will extract the values 11 and 14?
+
+A. `m[2,4,2,5]`
 
 B. `m[2:5]`
 

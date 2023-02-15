@@ -19,9 +19,24 @@ The exercises in this document follow along closely with [Lesson 14](https://swc
 -   Use `pivot_wider()` to go from long to wider layout.
 :::
 
+```{r}
+#| include: false
+library(gapminder)
+data(gapminder)
+
+library(dplyr)
+library(tidyr)
+options(dplyr.summarise.inform = FALSE)
+```
+
 #### Challenge 1
 
 Is gapminder a purely long, purely wide, or some intermediate format?
+
+<!-- Challenge 1 answer begin -->
+
+
+<!-- Challenge 1 answer end -->
 
 #### gap_wide vs gap_long vs gapminder
 

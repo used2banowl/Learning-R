@@ -19,6 +19,14 @@ The exercises in this document follow along closely with [Lesson 13](https://swc
 -   Use `mutate()` to create new variables.
 :::
 
+```{r}
+#| include: false
+library(gapminder)
+data(gapminder)
+
+library(dplyr)
+```
+
 #### Challenge 1
 
 Write a single command (which can span multiple lines and includes pipes) that will produce a data frame that has the African values for `lifeExp`, `country` and `year`, but not for other Continents. How many rows does your data frame have and why?
@@ -45,7 +53,7 @@ Calculate the average life expectancy per country. Which has the longest average
 
 #### Challenge 3
 
-Calculate the average life expectancy in 2002 of 2 randomly selected countries for each continent. Then arrange the continent names in reverse order. **Hint:** Use the `dplyr` functions `arrange()` and `sample_n()`, they have similar syntax to other dplyr functions.
+Calculate the average life expectancy in 2002 of 2 randomly selected countries for each continent. Then arrange the continent names in reverse order. **Hint:** Use the `dplyr` functions `arrange()` and `slice_sample()`, they have similar syntax to other dplyr functions.
 
 <!-- Challenge 3 answer begin -->
 

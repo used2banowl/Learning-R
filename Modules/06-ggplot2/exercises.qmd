@@ -16,6 +16,19 @@ The exercises in this document follow along closely with [Lesson 8](https://swca
 -   Think about graphics in layers: aesthetics, geometry, statistics, scale transformation, and grouping.
 :::
 
+```{r}
+#| include: false
+library(gapminder)
+data(gapminder)
+
+library(ggplot2)
+library(cowplot)
+theme_set(theme_cowplot())
+
+# load colorblind friendly color paletts
+source('https://tinyurl.com/wjm6ryj')
+```
+
 #### Challenge 1
 
 Modify the example so that the figure shows how life expectancy has changed over time:
@@ -46,7 +59,9 @@ Here is a demonstration of drawing points *on top of* lines.
 
 ```{r}
 ggplot(data = gapminder, mapping = aes(x=year, y=lifeExp, by=country)) +
-  geom_line(mapping = aes(color=continent)) + geom_point()
+  geom_line(mapping = aes(color=continent)) + 
+  geom_point() +
+  scale_color_manual(values = cbbPalette)
 ```
 
 Switch the order of the point and line layers from the previous example. What happened?
@@ -65,7 +80,9 @@ We can fit a simple relationship to the data by adding another layer, `geom_smoo
 
 ```{r}
 ggplot(data = gapminder, mapping = aes(x = gdpPercap, y = lifeExp)) +
-  geom_point(alpha = 0.5) + scale_x_log10() + geom_smooth(method="lm", size=1.5)
+  geom_point(alpha = 0.5) + 
+  scale_x_log10() +
+  geom_smooth(method="lm", size=1.5)
 ```
 
 Modify the color and size of the points on the point layer in the previous example.

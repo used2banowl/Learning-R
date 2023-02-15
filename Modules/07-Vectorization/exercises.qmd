@@ -7,13 +7,24 @@ format:
 editor: visual
 ---
 
-The exercises in this document follow along closely with [Lesson 9](https://swcarpentry.github.io/r-novice-gapminder/01-rstudio-intro/index.html) of [R for Reproducible Scientific Analysis](https://swcarpentry.github.io/r-novice-gapminder/), provided by the [Software Carpentry](https://software-carpentry.org/) community under the creative commons license, [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/). For more information see [The Carpentries](https://carpentries.org/).
+The exercises in this document follow along closely with [Lesson 9](https://swcarpentry.github.io/r-novice-gapminder/09-vectorization/index.html) of [R for Reproducible Scientific Analysis](https://swcarpentry.github.io/r-novice-gapminder/), provided by the [Software Carpentry](https://software-carpentry.org/) community under the creative commons license, [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/). For more information see [The Carpentries](https://carpentries.org/).
 
 ::: callout-tip
 ## Key Points
 
 -   Use vectroized options instead of loops
 :::
+
+```{r}
+library(gapminder)
+data(gapminder)
+
+library(ggplot2)
+library(cowplot)
+theme_set(theme_cowplot())
+
+library(magrittr)
+```
 
 #### Challenge 1
 
@@ -65,7 +76,7 @@ Write down what you think will happen when you run:
 -   `m > c(0, 20)`
 -   `m * c(1, 0, -1, 2)`
 
-Did you get the output you expected? If not, let's discuss in class.
+Did you get the output you expected? If not and the video didn't clear things up, let me know and we can discuss.
 
 <!-- Challenge 3 answer begin -->
 
