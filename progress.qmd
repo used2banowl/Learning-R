@@ -21,13 +21,14 @@ library(quarto)
 library(knitr)
 
 
-# sample solutions base (use specific commit to keep things consistent with forks)
+# sample solutions base (solutions branch)
+# (use specific commit to keep things consistent with forks)
 # add file path to this to get raw file content
-solution_sha <- '2d96b8d2d157fd887510ce28e504aaa3a925fdbd'
+solution_sha <- '50a4bac93ba6c6b6f0eb6aafb0ceded1377fea71'
 solution_base <- paste0('https://raw.githubusercontent.com/johnsonra/Learning-R/', solution_sha, '/')
 
-# starter code base
-starter_sha <- '97ca9884ce7e0db3052b15ecab24d03b646ff67b'
+# starter code base (main branch)
+starter_sha <- '141f8fb782c814de3c76a8005d38be8e6837eb3e'
 starter_base <- paste0('https://raw.githubusercontent.com/johnsonra/Learning-R/', starter_sha, '/')
 
 # current branch
