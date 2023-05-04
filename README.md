@@ -6,8 +6,8 @@ Learning R
 Welcome to this self-directed course on R and RStudio. Very little prior experience is assumed, but if you have some R experience, you are welcome to skip ahead. Each module is fairly self contained and accommpanied by a video on [this playlist](https://www.youtube.com/watch?v=lWElqN7eTK4&list=PL_A3YyKeSJx95wn_ls_XJEr34Y8_fwczh). Topics covered in each module include:
 
 1. [Intro to RStudio](https://youtu.be/_98f-UMBMz4)
-2. Project management with RStudio
-3. Seeking help
+2. [Project management with RStudio](https://youtu.be/IB5mmtLH7QE)
+3. [Seeking help](https://youtu.be/g-JqSPiOv6I)
 4. Subsetting data
 5. Flow and control
 6. ggplot2
