@@ -153,8 +153,8 @@ for(l in 1:nrow(checks)) # for each lesson
     challenges <- grepl('<section id="challenge-', out_md) %>%
       which()
   
-    # double check that we have the correct number of challenges
-    if(length(challenges) != length(checks$code_sim[[l]]))
+    # double check that we have the correct number of challenges (hack module 2 for now)
+    if(length(challenges) != length(checks$code_sim[[l]]) & l != 2)
     {
       warning("Number of challenges aren't equal to number of solutions")
       plot_score(1,
@@ -169,10 +169,18 @@ for(l in 1:nrow(checks)) # for each lesson
         # make graphic
         plot_score(with(checks, code_sim[[l]][i] * text_sim[[l]][i]),
                    paste0(module_path, 'score', i, '.png'))
+          
+        # another module 2 hack
+        if(l == 2)
+        {
+            i_hack <- i + 1
+        }else{
+            i_hack <- i
+        }
     
         # add graphic to readme
-        out_md[challenges[i] + 1] <- paste0(out_md[challenges[i] + 1],
-                                            ' <img src="score', i, '.png">')
+        out_md[challenges[i_hack] + 1] <- paste0(out_md[challenges[i_hack] + 1],
+                                                 ' <img src="score', i, '.png">')
       }
     }
   }  
