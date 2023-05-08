@@ -4,7 +4,7 @@ format: html
 editor: visual
 ---
 
-The exercises in this document follow along closely with [Lesson 10](https://swcarpentry.github.io/r-novice-gapminder/10-functions/index.html) of [R for Reproducible Scientific Analysis](https://swcarpentry.github.io/r-novice-gapminder/), provided by the [Software Carpentry](https://software-carpentry.org/) community under the creative commons license, [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/). For more information see [The Carpentries](https://carpentries.org/).
+The exercises in this document follow along closely with [Lesson 10](https://swcarpentry.github.io/r-novice-gapminder/10-functions.html) of [R for Reproducible Scientific Analysis](https://swcarpentry.github.io/r-novice-gapminder/), provided by the [Software Carpentry](https://software-carpentry.org/) community under the creative commons license, [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/). For more information see [The Carpentries](https://carpentries.org/).
 
 ::: callout-tip
 ## Key Points
@@ -84,7 +84,9 @@ paste(best_practice, collapse=" ")
 
 Write a function called `fence()` that takes two vectors as arguments, called `text` and `wrapper`, and prints out the text wrapped with the wrapper. For example, `fence(text=best_practice, wrapper="***")` should give the following result:
 
-    "*** Write programs for people not computers ***"
+```         
+"*** Write programs for people not computers ***"
+```
 
 <!-- Challenge 4 answer begin -->
 

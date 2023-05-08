@@ -4,7 +4,7 @@ format: html
 editor: visual
 ---
 
-The exercises in this document follow along closely with [Lesson 9](https://swcarpentry.github.io/r-novice-gapminder/09-vectorization/index.html) of [R for Reproducible Scientific Analysis](https://swcarpentry.github.io/r-novice-gapminder/), provided by the [Software Carpentry](https://software-carpentry.org/) community under the creative commons license, [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/). For more information see [The Carpentries](https://carpentries.org/).
+The exercises in this document follow along closely with [Lesson 9](https://swcarpentry.github.io/r-novice-gapminder/09-vectorization.html) of [R for Reproducible Scientific Analysis](https://swcarpentry.github.io/r-novice-gapminder/), provided by the [Software Carpentry](https://software-carpentry.org/) community under the creative commons license, [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/). For more information see [The Carpentries](https://carpentries.org/).
 
 ::: callout-tip
 ## Key Points
@@ -85,7 +85,9 @@ Your answer goes here.
 
 We're interested in looking at the sum of the following sequence of fractions:
 
-    x = 1/(1^2) + 1/(2^2) + 1/(3^2) + ... + 1/(n^2)
+```         
+x = 1/(1^2) + 1/(2^2) + 1/(3^2) + ... + 1/(n^2)
+```
 
 This would be tedious to type out, and impossible for high values of $n$. Use vectorization to compute $x$ when $n=100$.
 
