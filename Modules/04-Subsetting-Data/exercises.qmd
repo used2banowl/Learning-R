@@ -28,8 +28,10 @@ print(x)
 
 Come up with at least 2 different commands that will produce the following output using `x`:
 
-      b   c   d 
-    6.2 7.1 4.8 
+```         
+  b   c   d 
+6.2 7.1 4.8 
+```
 
 <!-- Challenge 1 answer begin -->
 

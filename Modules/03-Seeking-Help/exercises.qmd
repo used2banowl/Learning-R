@@ -16,7 +16,7 @@ Use `help()` or `?` to get help in R.
 
 #### Challenge 1
 
-Look at the help page for `c`. What kind of vector do you expect will be creeated if you evaluate the following?
+Look at the help page for `c`. What kind of vector do you expect will be created if you evaluate the following?
 
 ```{r}
 c(1, 2, 3)
