@@ -35,7 +35,7 @@ Make a new column in the `gapminder` data frame that contains population in unit
 
 <!-- Challenge 1 answer end -->
 
-#### Challenge 2
+#### Challenge 2a
 
 On a single graph, plot population, in millions, against year, for all countries. Do not worry about identifying which country is which.
 
@@ -46,6 +46,8 @@ On a single graph, plot population, in millions, against year, for all countries
 ```
 
 <!-- Challenge 2a answer end -->
+
+#### Challenge 2b
 
 Repeat the exercise, graphing only for China, India, and Indonesia. Again, do not worry about which is which.
 
@@ -81,7 +83,7 @@ Your answer goes here.
 
 <!-- Challenge 3 answer end -->
 
-#### Challenge 4
+#### Challenge 4a
 
 We're interested in looking at the sum of the following sequence of fractions:
 
@@ -98,6 +100,8 @@ This would be tedious to type out, and impossible for high values of $n$. Use ve
 ```
 
 <!-- Challenge 4a answer end -->
+
+#### Challenge 4b
 
 What is the sum when $n=10,000$?
 

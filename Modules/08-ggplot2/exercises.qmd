@@ -71,7 +71,7 @@ Switch the order of the point and line layers from the previous example. What ha
 
 <!-- Challenge 3 answer end -->
 
-#### Challenge 4
+#### Challenge 4a
 
 We can fit a simple relationship to the data by adding another layer, `geom_smooth`:
 
@@ -93,6 +93,8 @@ Hint: do not use the `aes` function.
 ```
 
 <!-- Challenge 4a answer end -->
+
+#### Challenge 4b
 
 Modify your solution above so that the points are now a different shape and are colored by continent with new trendlines. Hint: The **color** argument can be used inside the aesthetic.
 
