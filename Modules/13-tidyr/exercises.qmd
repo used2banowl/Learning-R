@@ -32,7 +32,6 @@ Is gapminder a purely long, purely wide, or some intermediate format?
 
 <!-- Challenge 1 answer begin -->
 
-
 <!-- Challenge 1 answer end -->
 
 #### gap_wide vs gap_long vs gapminder
@@ -41,7 +40,7 @@ The `gap_wide` data set is formatted such that there is only one row per country
 
 ```{r}
 library(readr)
-gap_wide <- read_csv('https://raw.githubusercontent.com/swcarpentry/r-novice-gapminder/gh-pages/_episodes_rmd/data/gapminder_wide.csv')
+gap_wide <- read_csv('https://swcarpentry.github.io/r-novice-gapminder/data/gapminder_wide.csv')
 gap_wide
 ```
 
