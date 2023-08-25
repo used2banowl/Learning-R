@@ -1,0 +1,45 @@
+---
+title: "Writing Good Software"
+format: revealjs
+editor: visual
+---
+
+## Structure your project folder
+
+-   Be consistent
+
+-   Be modular
+
+![](projectStructure.jpg)
+
+## Make code readable
+
+-   Use lots of white space
+
+-   Be consistent
+
+-   Work on your style - your future self will appreciate it!
+
+## Documentation
+
+-   Tell us what and why, not how
+
+-   Adding comments on how to do something is common when learning to code, but knowing how to do something isn't as important later on as *why* you did it and *what* your code is trying to accomplish.
+
+## Keep your code modular
+
+-   General best practice is to:
+
+    -   Separate your functions from your analysis scripts
+
+    -   If you find yourself coding the same thing (or nearly the same thing) more than once, consider writing a function
+
+    -   Break things up into logical pieces and sub-tasks
+
+    -   Put different sub-tasks in different files, depending on how long each sub-task is and how related it is to other sub-tasks
+
+## Know that your code is doing the right thing
+
+-   Test your code
+
+-   Write code to test your code
