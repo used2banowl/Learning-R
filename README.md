@@ -1,6 +1,8 @@
 Learning R
 ================
 
+Check out my progress [here](https://used2banowl.github.io/Learning-R/progress.html).
+
 ## Background
 
 Welcome to this self-directed course on R and RStudio. Very little prior experience is assumed, but if you have some R experience, you are welcome to skip ahead. Each module is fairly self contained and accommpanied by a video on [this playlist](https://www.youtube.com/watch?v=lWElqN7eTK4&list=PL_A3YyKeSJx95wn_ls_XJEr34Y8_fwczh). Modules mostly follow the [R for Reproducible Scientific Analysis](https://swcarpentry.github.io/r-novice-gapminder/index.html) course provided by the [Software Carpentry](https://software-carpentry.org/lessons/index.html) community. Topics covered in each module include:
